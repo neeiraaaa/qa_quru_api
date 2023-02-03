@@ -70,7 +70,3 @@ def test_login_unsuccessful():
 
     assert login_unsuccessful.status_code == 400
     assert len(login_unsuccessful.content) != 0
-
-
-
-
